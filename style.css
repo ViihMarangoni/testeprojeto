@@ -13,7 +13,7 @@ a {
 
 header {
     display: flex;
-    background: rgba(0, 0, 0, 0.911);
+    background: rgba(179, 3, 3, 0.911);
     padding: 20px;
     align-items: center;
     flex-wrap: wrap;
@@ -22,7 +22,7 @@ header {
 
 footer {
     display: flex;
-    background: rgba(0, 0, 0, 0.911);
+    background: rgba(238, 23, 23, 0.911);
     padding: 20px;
     align-items: center;
     flex-wrap: wrap;
