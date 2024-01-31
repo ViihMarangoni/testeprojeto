@@ -17,16 +17,22 @@ header {
     padding: 20px;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 footer {
-    display: flex;
-    background: rgba(238, 23, 23, 0.911);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(179, 3, 3, 0.911);
     padding: 20px;
-    align-items: center;
+    display: flex;
+    background: rgba(179, 3, 3, 0.911);
+    padding: 20px;
     flex-wrap: wrap;
-    justify-content: center
+    justify-content: center;
+    
+    
 }
 
 .menu {
@@ -51,6 +57,7 @@ h1 {
 img {
     max-width: 100%;
     display: block;
+    border-radius: 8px;
 }
 
 .flex {
@@ -63,5 +70,14 @@ img {
 .flex>div {
     flex: 200px;
     margin: 10px 10px;
+}
+
+
+body {
+    background-image: url(imagem.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+
 }
 

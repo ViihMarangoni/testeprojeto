@@ -3,20 +3,56 @@ body, ul {
     margin: 0;
     padding: 0;
 }
+header {
+    display: flex;
+    background: rgba(179, 3, 3, 0.911);
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(179, 3, 3, 0.911);
+    padding: 20px;
+    display: flex;
+    background: rgba(179, 3, 3, 0.911);
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center
+}
+.menu {
+    display: flex;
+}
 
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 8px;
+    background: rgba(255, 235, 235, 0.301);
+}
 /* Estilizando a lista de produtos */
 ul {
     list-style: none;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 20px;
 }
 
 /* Estilizando cada item da lista */
 li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
     width: 300px;
-    margin: 20px;
     text-align: center;
 }
 
@@ -46,4 +82,12 @@ li button {
 
 li button:hover {
     background-color: rgba(238, 23, 23, 0.911);
+}
+
+body {
+    background-image: url(fundoqueijo.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+
 }

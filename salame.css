@@ -4,6 +4,40 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
+header {
+    display: flex;
+    background: rgba(179, 3, 3, 0.911);
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 8px;
+    background: rgba(255, 235, 235, 0.301);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(179, 3, 3, 0.911);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+
+}
 
 ul {
     list-style: none;
@@ -44,5 +78,21 @@ button {
 }
 
 button:hover {
-    background-color: rgba(238, 23, 23, 0.911);
+    background-color: rgba(255, 255, 255, 0.911);
+}
+body {
+    background-image: url(fundoqueijo.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.flex>div {
+    flex: 200px;
+    margin: 10px 10px;
 }
